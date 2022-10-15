@@ -8,4 +8,4 @@ arr = arr.join('').replace(/Eek!/gi, '').split('').reverse().join('')
 let tmrString = arr.split('v').map(el => el[0])
 tmrString.splice(0, 1)
 
-tmrString = tmrString.join('')
+//[ 'S', 'p', 'a', 'c', 'e' ]
